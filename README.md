@@ -23,6 +23,6 @@
 
 ## Hands-On 순서
 
-1. [간단한 Spring App Kubernetes에 배포하기](./spring_deploy_k8s.md)
+1. [Spring App Kubernetes에 배포하기](./spring_deploy_k8s.md)
 1. [Spring Cloud Gateway 구성하기](./scg.md)
 1. [Cloud Native Build Pack으로 쉽게 배포하기](./cnb.md)

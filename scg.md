@@ -7,3 +7,4 @@ Spring Cloud Gateway는 각각의 Micro Service 로 만든 서비스들을 외�
 
 ### [1. Spring Cloud Gateway 구성하기](./scg_install.md)
 ### [2. Spring Cloud Gateway 사용하기](./scg_config.md)
+### [3. Spring Cloud Gateway Advanced 기능 활용하기](./scg_advanced.md)
