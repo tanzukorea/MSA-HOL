@@ -10,7 +10,7 @@ Local Pc에서 TKG에 접근이 가능하고(방화벽에서 6443포트 해제),
 
 아래 명령어를 실행해서 k8s yaml 파일을 생성합니다.
 ```
-kubectl create deployment helloworld --image=projects.registry.vmware.com/cnr/helloworld:1.0 --port=8080 --dry-run=client -o=yaml >> deploy.yaml
+kubectl create deployment helloworld --image=[Harbor주소]/helloworld:1.0 --port=8080 --dry-run=client -o=yaml >> deploy.yaml
 
 kubectl create service loadbalancer helloworld --tcp=8080:8080 --dry-run=client -o=yaml >> service.yaml
 ```
