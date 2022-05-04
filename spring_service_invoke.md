@@ -106,7 +106,8 @@ helloworld                LoadBalancer   100.68.200.37    10.31.xx.xxx   8080:32
 member                    LoadBalancer   100.65.174.78    10.31.yy.yyy   8080:32269/TCP      34m
 ```
 
-member 서비스를 호출해서 helloworld 가 두가지 방식으로 모두 정상적으로 호출이 되는지 확인합니다.
+member 서비스를 호출해서 helloworld 서비스가 두 가지 방식으로 모두 정상적으로 호출이 되는지 확인합니다.
+
 http://10.31.yy.yyy:8080/hello_invoke_direct/
 
 http://10.31.yy.yyy:8080/hello_invoke_discover/
