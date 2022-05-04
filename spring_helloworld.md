@@ -1,3 +1,5 @@
+## 간단한 Hello world Spring App 만들기
+
 ### 1. JDK 다운로드
 본 Lab에서는 JDK17을 사용합니다.
 아래의 주소에서 사용할 OpenJDK를 다운로드 받아서 설치합니다.

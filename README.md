@@ -19,6 +19,7 @@
 * Docker Desktop
 * Spring 개발 IDE (본 Lab에서는 Spring Tool Suite 사용)
 * SSH Terminal (windows Putty, macOS Terminal 등)
+* kubectl
 
 ## Hands-On 순서
 
