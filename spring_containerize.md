@@ -70,13 +70,16 @@ Login Succeeded
 ```
 ### 8. docker push 명령어로 이미지를 upload 합니다.
 
+```
 docker push projects.registry.vmware.com/cnr/helloworld:1.0
+
 The push refers to repository [projects.registry.vmware.com/cnr/helloworld]
 5f70bf18a086: Mounted from cnr/gateway
 34f7184834b2: Pushed
 5836ece05bfd: Pushed
 72e830a4dff5: Pushed
 1.0: digest: sha256:618f8b65bbb0be84d34f9110384ebd2ef3dd8800a8e1fd7ba5726ed7fde7d6c7 size: 1157
+```
 
 ### 9. Conainer Registry(Harbor) Upload 확인
 Harbor에 정상적으로 이미지가 업로드 되었는지 확인합니다.
