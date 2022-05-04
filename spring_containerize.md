@@ -49,7 +49,9 @@ docker run -p8080:8080 helloworld
 
 ### 5. Container 이미지 tag하기
 이제 생성된 이미지를 Container registry로 올리는 작업을 수행하기 위해 tag를 만듭니다.
-Container Registry가 projects.registry.vmware.com/cnr 라고 할 경우 아래와 같이 수행합니다.
+Container Registry가 projects.registry.vmware.com/cnr 라고 할 경우 아래와 같이 수행합니다. 
+
+** 현재 환경의 Harbor 주소를 입력하세요 **
 
 ```
 docker tag helloworld projects.registry.vmware.com/cnr/helloworld:1.0
